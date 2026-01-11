@@ -12,7 +12,7 @@ I enjoy bridging **design and development**, shipping production-ready solutions
 ---
 
 🔭 Currently
-- Building **client websites and landing pages** using Framer
+- Building **client websites and landing pages** using Next.js and CMS.
 - Developing **full-stack applications** with React, Next.js, and Node.js
 - Improving frontend architecture, performance optimization, and scalability
 - Exploring practical uses of **AI & LLM tools** in development workflows
