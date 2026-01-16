@@ -35,8 +35,7 @@ Strapi (Headless CMS), Framer CMS
 MongoDB, MySQL  
 
 **DevOps & Deployment**  
-Docker (learning / basic containerization)
-
+Docker (learning / basic containerization) 
 Jenkins  
 Vercel (Frontend & Next.js deployments)  
 Render (Backend & full-stack deployments)  
