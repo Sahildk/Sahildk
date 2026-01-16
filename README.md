@@ -36,7 +36,7 @@ MongoDB, MySQL
 
 **DevOps & Deployment**  
 Docker (learning / basic containerization) 
-Jenkins  
+ Jenkins  
 Vercel (Frontend & Next.js deployments)  
 Render (Backend & full-stack deployments)  
 
