@@ -1,7 +1,7 @@
 # Sahil Deore
 
 **AI/ML Engineer · LLM Agents & NLP Pipelines · Python / FastAPI**  
-Navi Mumbai, India · [Portfolio](https://sahil-portfolio-mauve.vercel.app/) · [GitHub](https://github.com/Sahildk) · [LinkedIn](https://linkedin.com/in/sahildeore)
+Navi Mumbai, India · [Portfolio](https://sahilbuilds.tech/) · [GitHub](https://github.com/Sahildk) · [LinkedIn](https://linkedin.com/in/sahildeore)
 
 ---
 
