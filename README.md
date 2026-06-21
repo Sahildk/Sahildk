@@ -34,7 +34,7 @@ Hugging Face Inference API · FastAPI · Motor ODM · MongoDB Atlas · Next.js 1
 
 ---
 
-### [PulmoScreen AI](https://github.com/Sahildk/pulmoscreen) — ML Risk Prediction Engine
+### [PulmoScreen AI](https://github.com/Sahildk/pulmo-screen-ai) — ML Risk Prediction Engine
 Python · scikit-learn · Pandas · SMOTE · Flask · React · Recharts
 
 - 5-classifier pipeline over 309 clinical records; SMOTE resolves 87/13 class imbalance; best model auto-selected (Logistic Regression, 94.3% F1)
@@ -58,7 +58,7 @@ React · TypeScript · Zustand · Vite
 
 ---
 
-### [Datastraw Support CRM](https://github.com/Sahildk/datastraw-crm) — E-commerce Ticket Intelligence
+### [Datastraw Support CRM](https://github.com/Sahildk/datastraw-support-crm) — E-commerce Ticket Intelligence
 React · FastAPI · Supabase · PostgreSQL · Railway
 
 - AI ticket triage with sentiment analysis and real-time sync
