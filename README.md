@@ -1,87 +1,93 @@
-# Sahil Deore
+# Hey, I'm Sahil 👋
 
-**AI/ML Engineer · LLM Agents & NLP Pipelines · Python / FastAPI**  
-Navi Mumbai, India · [Portfolio](https://sahilbuilds.tech/) · [GitHub](https://github.com/Sahildk) · [LinkedIn](https://linkedin.com/in/sahildeore)
+**Applied AI · LLM Applications · Full-Stack Engineering**
 
----
+I like building things that turn AI capabilities into useful software — from voice-enabled applications and developer tools to APIs, dashboards, and automations.
 
-AI/ML Engineer with a focus on LLM agents, NLP pipelines, and full-stack AI applications.  
-Shipped 3 production systems integrating Gemini and Hugging Face APIs into real-world workflows.
+I'm a 4th-year B.Tech IT student based in Navi Mumbai, currently sharpening my skills in **LLM-powered applications, agent workflows, and reliable backend systems**.
 
----
-
-## Projects
-
-### [Nexus AI](https://github.com/Sahildk/ai-interviewer) — Adaptive AI Interview Agent
-Gemini 3.0 Flash · Next.js 15 · Node.js / Express · MongoDB Atlas · Web Speech API · Docker
-
-- STT → Gemini → TTS voice pipeline with sub-2s round-trip latency; strict JSON output via `responseMimeType` with server-side schema validation
-- System instruction architecture for multi-turn interviewer persona — behavioral rules, role constraints, conversation guardrails
-- Separate Gemini evaluation agent processes full transcripts into structured JSON scorecards (Technical Accuracy, Communication, Culture Fit)
-
-🥉 **3rd Runner-Up — edQuest BuildWithAI Hackathon · 118 participants**
+[Portfolio](https://sahilbuilds.tech) · [LinkedIn](https://linkedin.com/in/sahildeore) · [Email](mailto:sahildeore@gmail.com)
 
 ---
 
-### [TenantWatch](https://github.com/Sahildk/astrix-developer) — NLP Complaint Triage System
-Hugging Face Inference API · FastAPI · Motor ODM · MongoDB Atlas · Next.js 14 · Leaflet
+## Featured projects
 
-- Zero-shot classification routes complaints into 4 categories (Maintenance, Safety, Harassment, Unfair Rent) with 90%+ accuracy — no labelled training data
-- Confidence-threshold fallback: complaints below 65% flagged as Unassigned instead of misrouted
-- Async FastAPI backend serves geocoded data to a Leaflet heatmap with category, severity, and date filtering
+### [RepoMind AI](https://github.com/Sahildk/RepoMind-AI)
+**Understand a codebase without digging through every folder.**
 
-**Top 20 of 154 Teams — HackQuinox 2.0 · 600+ participants**
+A developer workspace that inspects GitHub repository structure and configuration files, then generates architecture diagrams and an interactive repository explorer.
 
----
+- Visual architecture diagrams with Mermaid
+- Repository tree, source-file and manifest inspection
+- Built with Next.js, TypeScript, FastAPI, and Gemini
 
-### [PulmoScreen AI](https://github.com/Sahildk/pulmo-screen-ai) — ML Risk Prediction Engine
-Python · scikit-learn · Pandas · SMOTE · Flask · React · Recharts
+### [Nexus AI Interviewer](https://github.com/Sahildk/ai-interviewer)
+**A voice-enabled practice partner for technical interviews.**
 
-- 5-classifier pipeline over 309 clinical records; SMOTE resolves 87/13 class imbalance; best model auto-selected (Logistic Regression, 94.3% F1)
-- Model serialized to `.pkl`, served via Flask REST API; React/Recharts dashboard shows Precision, Recall, Confusion Matrix
+An adaptive interview experience that combines speech input/output with Gemini-powered questions and structured interview feedback.
 
----
+- Voice pipeline using speech recognition, Gemini, and text-to-speech
+- Interview persona and conversation guardrails
+- Structured evaluation reports from interview transcripts
 
-### [Gmail → Google Sheets Automation](https://github.com/Sahildk/gmail-to-sheets) — ETL Pipeline
-Python · Gmail API · Google Sheets API · OAuth 2.0
+🥉 **3rd Runner-Up — edQuest BuildWithAI Hackathon**
 
-- Idempotent email parsing pipeline with duplicate prevention and structured logging
-- Serverless contact pipeline variant: AWS Lambda (Python 3.12) + API Gateway + SES with least-privilege IAM; 8 mock unit tests for offline validation
+### [TenantWatch](https://github.com/Sahildk/astrix-developer)
+**Turn housing complaints into actionable community signals.**
 
----
+A full-stack reporting platform that categorizes housing complaints and visualizes them on an interactive map.
 
-### [CreatorDesk](https://github.com/Sahildk/creatordesk) — AI Influencer Campaign Dashboard
-React · TypeScript · Zustand · Vite
+- Zero-shot complaint classification with a confidence-based fallback
+- FastAPI and MongoDB backend
+- Geospatial heatmap with category, severity, and date filters
 
-- AI relevance scoring engine for creator discovery — no LLM API dependency, pure ranking logic
-- Kanban workflow, analytics dashboard, Google Sheets/CSV sync
+🏅 **Top 20 — HackQuinox 2.0**
 
----
+### [CreatorDesk](https://github.com/Sahildk/CreatorDesk)
+**A more structured way to shortlist creators for campaigns.**
 
-### [Datastraw Support CRM](https://github.com/Sahildk/datastraw-support-crm) — E-commerce Ticket Intelligence
-React · FastAPI · Supabase · PostgreSQL · Railway
+A campaign dashboard with deterministic creator relevance scoring, campaign-specific shortlists, Kanban management, and CSV workflows.
 
-- AI ticket triage with sentiment analysis and real-time sync
+Built with React, TypeScript, Zustand, and Vite.
 
----
+### [LeafShield AI](https://github.com/Sahildk/plant-disease-detection)
+**Plant-leaf disease classification with deep learning.**
 
-## Stack
+A web application using a fine-tuned MobileNetV3 model to classify 38 plant health conditions across 14 crop species.
 
-**AI / ML** — Gemini API · Hugging Face · LLM Prompt Engineering · Zero-Shot Classification · RAG · STT/TTS · Fine-Tuning · Agent Persona Design  
-**ML Libraries** — PyTorch · scikit-learn · Pandas · NumPy · SMOTE  
-**Backend** — FastAPI · Flask · Node.js · Express · REST APIs · JWT · Async Motor ODM  
-**Frontend** — React · Next.js · TypeScript · Tailwind CSS  
-**Cloud & Infra** — AWS Lambda · API Gateway · SES · IAM · Docker · MongoDB Atlas · Vector DBs · Vercel  
-**Tools** — Git · Cursor · Claude Code · Jenkins · CI/CD · SonarCloud
+Built with PyTorch, FastAPI, React, and TypeScript. The repository reports 95.6% validation accuracy on its PlantVillage-based evaluation.
 
----
+### [AWS Serverless Contact Form](https://github.com/Sahildk/aws-serverless-contact-form)
+**A form-to-email workflow without managing a traditional server.**
 
-## Currently
-
-- Co-Head, Website Team @ E-CELL SAKEC — 5-person team, 10+ events, zero downtime
-- 4th-year B.Tech IT · SAKEC, Mumbai University · CGPA 8.18
-- **Google Cloud: Generative AI** — Google Cloud Skills Boost
+A serverless application using API Gateway, AWS Lambda, and Amazon SES, with infrastructure defined using AWS SAM and automated unit tests.
 
 ---
 
-> Open to **AI Engineering** and **Full-Stack AI** roles — internships and full-time.
+## What I work with
+
+| Area | Technologies |
+|---|---|
+| **AI & NLP** | Gemini API, Hugging Face, prompt design, zero-shot classification, speech interfaces |
+| **Backend** | Python, FastAPI, Flask, Node.js, Express, REST APIs |
+| **Frontend** | TypeScript, React, Next.js, Tailwind CSS |
+| **Data** | MongoDB, PostgreSQL, Supabase, Pandas, NumPy |
+| **Cloud & tooling** | AWS Lambda, API Gateway, SES, Docker, Git, CI/CD |
+
+I'm actively deepening my understanding of **RAG, agent orchestration, and LLM evaluation** — with an emphasis on building systems that are testable, useful, and clear about their limitations.
+
+---
+
+## Beyond code
+
+- **E-CELL SAKEC** — Co-Head of the Website Team, helping maintain the organization's web presence and event workflows.
+- **B.Tech Information Technology** — SAKEC, University of Mumbai.
+- **Learning by building** — hackathons, side projects, and experimenting with ways to make software more useful.
+
+---
+
+### Let's connect
+
+I'm interested in opportunities where I can build AI-powered products, contribute across the stack, and keep learning from real engineering problems.
+
+[Explore my projects](https://github.com/Sahildk?tab=repositories) · [Visit my portfolio](https://sahilbuilds.tech) · [Connect on LinkedIn](https://linkedin.com/in/sahildeore)
