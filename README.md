@@ -1,93 +1,74 @@
-# Hey, I'm Sahil 👋
+<h1 align="left">Sahil Deore</h1>
 
-**Applied AI · LLM Applications · Full-Stack Engineering**
+<p><strong>Applied AI · LLM Applications · Full-Stack Engineering</strong></p>
 
-I like building things that turn AI capabilities into useful software — from voice-enabled applications and developer tools to APIs, dashboards, and automations.
+<p>I build AI-powered applications — from model integrations and intelligent workflows to the backend systems and interfaces that make them useful.</p>
 
-I'm a 4th-year B.Tech IT student based in Navi Mumbai, currently sharpening my skills in **LLM-powered applications, agent workflows, and reliable backend systems**.
-
-[Portfolio](https://sahilbuilds.tech) · [LinkedIn](https://linkedin.com/in/sahildeore) · [Repositories](https://github.com/Sahildk?tab=repositories)
-
----
-
-## Featured projects
-
-### [RepoMind AI](https://github.com/Sahildk/RepoMind-AI)
-**Understand a codebase without digging through every folder.**
-
-A developer workspace that inspects GitHub repository structure and configuration files, then generates architecture diagrams and an interactive repository explorer.
-
-- Visual architecture diagrams with Mermaid
-- Repository tree, source-file and manifest inspection
-- Built with Next.js, TypeScript, FastAPI, and Gemini
-
-### [Nexus AI Interviewer](https://github.com/Sahildk/ai-interviewer)
-**A voice-enabled practice partner for technical interviews.**
-
-An adaptive interview experience that combines speech input/output with Gemini-powered questions and structured interview feedback.
-
-- Voice pipeline using speech recognition, Gemini, and text-to-speech
-- Interview persona and conversation guardrails
-- Structured evaluation reports from interview transcripts
-
-🥉 **3rd Runner-Up — edQuest BuildWithAI Hackathon**
-
-### [TenantWatch](https://github.com/Sahildk/astrix-developer)
-**Turn housing complaints into actionable community signals.**
-
-A full-stack reporting platform that categorizes housing complaints and visualizes them on an interactive map.
-
-- Zero-shot complaint classification with a confidence-based fallback
-- FastAPI and MongoDB backend
-- Geospatial heatmap with category, severity, and date filters
-
-🏅 **Top 20 — HackQuinox 2.0**
-
-### [CreatorDesk](https://github.com/Sahildk/CreatorDesk)
-**A more structured way to shortlist creators for campaigns.**
-
-A campaign dashboard with deterministic creator relevance scoring, campaign-specific shortlists, Kanban management, and CSV workflows.
-
-Built with React, TypeScript, Zustand, and Vite.
-
-### [LeafShield AI](https://github.com/Sahildk/plant-disease-detection)
-**Plant-leaf disease classification with deep learning.**
-
-A web application using a fine-tuned MobileNetV3 model to classify 38 plant health conditions across 14 crop species.
-
-Built with PyTorch, FastAPI, React, and TypeScript. The repository reports 95.6% validation accuracy on its PlantVillage-based evaluation.
-
-### [AWS Serverless Contact Form](https://github.com/Sahildk/aws-serverless-contact-form)
-**A form-to-email workflow without managing a traditional server.**
-
-A serverless application using API Gateway, AWS Lambda, and Amazon SES, with infrastructure defined using AWS SAM and automated unit tests.
+<p>
+  <a href="https://sahilbuilds.tech"><img src="https://img.shields.io/badge/Portfolio-21262d?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/sahildeore"><img src="https://img.shields.io/badge/LinkedIn-21262d?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/Sahildk?tab=repositories"><img src="https://img.shields.io/badge/Projects-21262d?style=flat-square&logo=github&logoColor=white" alt="Projects" /></a>
+</p>
 
 ---
 
-## What I work with
+<h2>Featured work</h2>
 
-| Area | Technologies |
-|---|---|
-| **AI & NLP** | Gemini API, Hugging Face, prompt design, zero-shot classification, speech interfaces |
-| **Backend** | Python, FastAPI, Flask, Node.js, Express, REST APIs |
-| **Frontend** | TypeScript, React, Next.js, Tailwind CSS |
-| **Data** | MongoDB, PostgreSQL, Supabase, Pandas, NumPy |
-| **Cloud & tooling** | AWS Lambda, API Gateway, SES, Docker, Git, CI/CD |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sahildk/RepoMind-AI">⌘ RepoMind AI</a></h3>
+      <p>AI developer tooling</p>
+      Explore repository structure and configuration files, then turn them into architecture diagrams and an interactive codebase explorer.
+      <p><sub>Next.js · TypeScript · FastAPI · Gemini</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sahildk/ai-interviewer">◖ Nexus AI</a></h3>
+      <p>Voice-enabled AI interviews</p>
+      Practice technical interviews with adaptive Gemini-powered questions, speech input/output, and structured feedback.
+      <p><sub>Next.js · Gemini · Node.js · MongoDB</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sahildk/astrix-developer">⌖ TenantWatch</a></h3>
+      <p>NLP and geospatial data</p>
+      Categorize housing complaints and explore community reports through a map-based dashboard with filters and moderation tools.
+      <p><sub>Next.js · FastAPI · Hugging Face · MongoDB</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sahildk/CreatorDesk">▣ CreatorDesk</a></h3>
+      <p>Product engineering</p>
+      Organize creator campaigns with deterministic relevance scoring, shortlist workflows, a Kanban board, and CSV sync.
+      <p><sub>React · TypeScript · Zustand · Vite</sub></p>
+    </td>
+  </tr>
+</table>
 
-I'm actively deepening my understanding of **RAG, agent orchestration, and LLM evaluation** — with an emphasis on building systems that are testable, useful, and clear about their limitations.
+<p><strong>Also built:</strong> <a href="https://github.com/Sahildk/plant-disease-detection">LeafShield AI</a> · <a href="https://github.com/Sahildk/aws-serverless-contact-form">AWS Serverless Contact Form</a> · <a href="https://github.com/Sahildk/gmail-to-sheets">Gmail to Google Sheets Automation</a> · <a href="https://github.com/Sahildk/datastraw-support-crm">Datastraw Support CRM</a></p>
 
 ---
 
-## Beyond code
+<h2>What I work with</h2>
 
-- **E-CELL SAKEC** — Co-Head of the Website Team, helping maintain the organization's web presence and event workflows.
-- **B.Tech Information Technology** — SAKEC, University of Mumbai.
-- **Learning by building** — hackathons, side projects, and experimenting with ways to make software more useful.
+<p><strong>AI / NLP</strong> — Gemini API · Hugging Face · Prompt design · Zero-shot classification · Speech interfaces</p>
+<p><strong>Backend</strong> — Python · FastAPI · Flask · Node.js · Express · REST APIs</p>
+<p><strong>Frontend</strong> — TypeScript · React · Next.js · Tailwind CSS</p>
+<p><strong>Data &amp; cloud</strong> — MongoDB · PostgreSQL · Supabase · AWS Lambda · API Gateway · Docker</p>
+
+<p>Currently deepening my skills in <strong>RAG, agent orchestration, and LLM evaluation</strong> — with a focus on building systems that are useful, testable, and clear about their limitations.</p>
 
 ---
 
-### Let's connect
+<h2>Beyond the code</h2>
 
-I'm interested in opportunities where I can build AI-powered products, contribute across the stack, and keep learning from real engineering problems.
+<ul>
+  <li><strong>B.Tech Information Technology</strong> — SAKEC, University of Mumbai · 4th year</li>
+  <li><strong>E-CELL SAKEC</strong> — Co-Head of the Website Team</li>
+  <li><strong>Hackathons</strong> — 3rd Runner-Up at edQuest BuildWithAI; Top 20 at HackQuinox 2.0</li>
+  <li><strong>Currently</strong> — Frontend Engineer Intern at Grow My Therapy, building with Next.js, TypeScript, and Tailwind CSS</li>
+</ul>
 
-[Explore my projects](https://github.com/Sahildk?tab=repositories) · [Visit my portfolio](https://sahilbuilds.tech) · [Connect on LinkedIn](https://linkedin.com/in/sahildeore)
+<p>I'm interested in building AI-powered products, contributing across the stack, and learning from real engineering problems.</p>
+
+<p><a href="https://sahilbuilds.tech">Portfolio</a> · <a href="https://linkedin.com/in/sahildeore">Connect on LinkedIn</a> · <a href="https://github.com/Sahildk?tab=repositories">Explore all repositories</a></p>
