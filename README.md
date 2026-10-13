@@ -6,7 +6,7 @@ I like building things that turn AI capabilities into useful software — from v
 
 I'm a 4th-year B.Tech IT student based in Navi Mumbai, currently sharpening my skills in **LLM-powered applications, agent workflows, and reliable backend systems**.
 
-[Portfolio](https://sahilbuilds.tech) · [LinkedIn](https://linkedin.com/in/sahildeore) · [Email](mailto:sahildeore@gmail.com)
+[Portfolio](https://sahilbuilds.tech) · [LinkedIn](https://linkedin.com/in/sahildeore) · [Repositories](https://github.com/Sahildk?tab=repositories)
 
 ---
 
